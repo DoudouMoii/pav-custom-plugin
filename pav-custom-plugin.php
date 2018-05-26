@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Pav Custom Plugin
-Version: 0.1
+Version: 1.0.0
 Author: Etienne
 License: GPL2
 */
