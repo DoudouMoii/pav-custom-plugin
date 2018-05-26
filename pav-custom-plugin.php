@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Pav Custom Plugin
-Version: 1.0.3
+Version: 1.0.4
 Author: Etienne
 License: GPL2
 */
@@ -16,6 +16,6 @@ $myUpdateChecker->setBranch( 'master' );
 
 
 function pavcp_footer() {
-	echo "Version 1.0.3";
+	echo "1.0.4";
 }
 add_action( 'wp_footer', 'pavcp_footer' );
