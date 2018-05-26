@@ -10,7 +10,7 @@ License: GPL2
  * Update Checker
  */
 require 'plugin-update-checker/plugin-update-checker.php';
-$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker( 'https://github.com/user-name/repo-name/', __FILE__, 'pav-custom-plugin' );
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker( 'https://github.com/DoudouMoii/pav-custom-plugin/', __FILE__, 'pav-custom-plugin' );
 //Optional: Set the branch that contains the stable release.
 $myUpdateChecker->setBranch( 'master' );
 
